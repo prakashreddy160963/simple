@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body  style="  background: url(./stockm.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;text-align: center;">
+
+<h2 style="color:rgb(228, 44, 44); text-align: center;">SIMPLE INTEREST</h2>
+<div>
+        <label style="color:blanchedalmond;" ><strong>PRINCIPLE AMOUNT:</strong></label>
+         <input id="txt1" type="number"required placeholder="ENTER AMOUNT">
+</div>
+<br>
+<div>
+        <label style="text-align: center; color:blanchedalmond;" ><strong>RATE OF INTEREST:</strong></label>
+        <input id="txt2" type="number" required placeholder="ENTER RATE OF INTEREST">
+</div>
+<br>
+<div>
+        <label style="color: blanchedalmond;" ><strong>TIME:</strong></label>
+        <input id="txt3" type="number" required placeholder="ENTER TIME">
+</div>
+<br>
+<div>
+    <button onclick="caluInterest()" type="button"  >Interest:</button>
+    <button onclick="caluAmount()"  type="button" >Amount</button>
+
+</div>
+<br>
+  <div>
+        <label style="color: blanchedalmond;" >TOTAL AMOUNT:</label>
+        <input id="result" type="text" disabled>
+</div>
+</div>
+<script src="./int.js"></script>
+</body>
+</html>
